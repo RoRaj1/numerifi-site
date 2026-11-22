@@ -95,6 +95,11 @@ section { padding: 88px 0; }
   margin-bottom: 14px;
 }
 
+.eyebrow-lg {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 /* ---- Buttons ---- */
 .btn {
   display: inline-flex;
@@ -327,8 +332,8 @@ select:focus-visible {
 }
 
 .trend-path {
-  stroke-dasharray: 900;
-  stroke-dashoffset: 900;
+  stroke-dasharray: 480;
+  stroke-dashoffset: 480;
   animation: draw 1.8s ease forwards 0.3s;
 }
 
