@@ -426,6 +426,11 @@ select:focus-visible {
 .feature-card.is-flagship p { color: var(--white); }
 .feature-card.is-flagship p { color: rgba(255,255,255,0.75); }
 
+.feature-card.is-compact {
+  min-height: 0;
+  justify-content: flex-start;
+}
+
 .feature-tag {
   font-size: 0.82rem;
   font-weight: 600;
