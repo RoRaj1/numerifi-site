@@ -358,7 +358,8 @@ select:focus-visible {
 
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
-  .hero { padding: 64px 0 80px; text-align: left; }
+  .hero { padding: 64px 0 56px; text-align: left; }
+  .hero-chart { display: none; }
 }
 
 /* ---- How it works ---- */
