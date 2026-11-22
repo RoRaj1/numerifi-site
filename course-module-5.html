@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 5: Investing &amp; the Markets — Numerifi</title>
+<meta name="description" content="Explain stocks, bonds, and why diversification manages risk — Module 5 of Numerifi's free Personal Finance &amp; Markets course.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img class="brand-mark" src="logo.png" alt="Numerifi logo">
+      Numerifi
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html" aria-current="page">Courses</a></li>
+      <li><a href="workshops.html">Workshops</a></li>
+      <li class="has-dropdown">
+        <button class="nav-toggle-item" aria-expanded="false" aria-haspopup="true">
+          More
+          <svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="dropdown">
+          <li><a href="forum.html">Discussion Forum</a></li>
+          <li><a href="careers.html">Career Paths</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </li>
+      <li class="nav-cta"><a href="workshops.html" class="btn btn-primary">Book a Workshop</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="module-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 7-7"/><path d="M14 8h6v6"/></svg>
+    </div>
+    <div class="course-progress">
+      <span class="course-progress-label">Module 5 of 6</span>
+      <div class="course-progress-bar"><div class="course-progress-fill" style="width:83.3%"></div></div>
+    </div>
+    <h1>Investing &amp; the Markets</h1>
+    <p>Explain stocks, bonds, and why diversification manages risk. <span class="eyebrow" style="margin:0;">~25 min</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="container lesson-layout">
+    <article class="lesson">
+
+      <h2>What a stock and a bond actually are</h2>
+      <p>A <b>stock</b> is a small slice of ownership in a company. Buy one share of a company and you own a tiny piece of it — if the company grows more valuable, your share usually does too; if it struggles, so does your share's value. There's no promised return and no guarantee you get your money back; you're a part-owner, for better or worse.</p>
+      <p>A <b>bond</b> is the opposite relationship: you're lending money, not owning anything. Buy a bond from a company or government and you're paid back over time with interest, on a schedule fixed when you bought it. Bonds are generally more predictable than stocks, but that predictability usually comes with a lower long-run return. The core trade-off running through almost all of investing is right here: <b>ownership</b> (stocks) tends to pay more over time but swings harder; <b>lending</b> (bonds) is steadier but usually pays less.</p>
+
+      <h2>Risk, return, and diversification</h2>
+      <p>"Risk" in investing mostly means how much a value can swing before it reaches its long-run average — not necessarily "chance of losing everything." Cash barely moves at all and barely grows. Bonds move a little more and tend to pay a little more. Stocks move the most and, over long periods, have historically paid the most. None of this is a guarantee for any specific year — it's a pattern over long stretches of time, with plenty of bad years mixed in.</p>
+      <p><b>Diversification</b> means holding many different investments instead of one, so a bad outcome in any single company doesn't sink the whole portfolio. A fund that holds pieces of hundreds of companies will rarely go to zero, even though any one of those companies individually could. This is the entire reason index funds and mutual funds exist: they bundle many stocks or bonds into one purchase, spreading the risk automatically.</p>
+
+      <div class="lesson-visual">
+        <svg viewBox="0 0 400 240" role="img" aria-labelledby="risk-return-title">
+          <title id="risk-return-title">Scatter chart positioning cash, bonds, a diversified index fund, and a single stock by risk versus return</title>
+          <line x1="50" y1="200" x2="370" y2="200" stroke="#E2E8F0" stroke-width="1.5"/>
+          <line x1="50" y1="200" x2="50" y2="30" stroke="#E2E8F0" stroke-width="1.5"/>
+          <circle cx="90" cy="185" r="7" fill="#8694AB"/>
+          <text x="90" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#10192B">Cash</text>
+          <circle cx="175" cy="150" r="7" fill="#1C3A6B"/>
+          <text x="175" y="135" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#10192B">Bonds</text>
+          <circle cx="260" cy="100" r="8" fill="#1FB8A6"/>
+          <text x="260" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#10192B">Index fund</text>
+          <circle cx="340" cy="60" r="7" fill="#6FE0D0" stroke="#6FE0D0" stroke-width="1"/>
+          <circle cx="340" cy="60" r="18" fill="none" stroke="#6FE0D0" stroke-width="1.5" stroke-dasharray="4 4"/>
+          <text x="340" y="95" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#10192B">Single stock</text>
+          <text x="340" y="215" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#8694AB">Higher risk &rarr;</text>
+          <text x="38" y="35" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#8694AB" transform="rotate(-90 38 35)">Higher return &rarr;</text>
+        </svg>
+        <p class="visual-caption">The dashed ring shows a single stock's wider range of outcomes — diversified holdings narrow that range without necessarily lowering the average.</p>
+      </div>
+
+      <h2>How markets work</h2>
+      <p>A stock exchange (like the NYSE or Nasdaq) is where buyers and sellers meet to trade shares; prices move constantly based on what people are willing to pay. An <b>index</b> (like the S&amp;P 500) tracks a basket of stocks to represent "the market" as a whole, so you can gauge overall performance without watching every company. A <b>bull market</b> describes a sustained period of rising prices; a <b>bear market</b> describes a sustained decline. Both are normal parts of a market cycle — corrections and recoveries have happened repeatedly throughout market history.</p>
+
+      <div class="lesson-visual">
+        <svg viewBox="0 0 460 200" role="img" aria-labelledby="index-chart-title">
+          <title id="index-chart-title">Line chart of a market index over several decades, showing a decline followed by long-term growth</title>
+          <line x1="20" y1="170" x2="440" y2="170" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+          <path d="M20,170 C80,150 120,130 160,140 C200,150 220,185 240,190 C270,195 300,140 340,90 C380,50 410,40 440,25"
+            fill="none" stroke="#1FB8A6" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="440" cy="25" r="5" fill="#1FB8A6"/>
+          <text x="20" y="188" font-family="Inter, sans-serif" font-size="11" fill="#8694AB">Years &rarr;</text>
+          <text x="210" y="205" font-family="Inter, sans-serif" font-size="11" fill="#8694AB">a correction along the way</text>
+        </svg>
+        <p class="visual-caption">A stylized, illustrative index path — not any specific index or a prediction.</p>
+      </div>
+
+      <h2>Where AI fits into investing today</h2>
+      <p>AI shows up in investing in a few concrete ways already: robo-advisors that build and rebalance a diversified portfolio automatically based on your goals and risk tolerance, tools that scan news and earnings reports for sentiment faster than a person could, and risk models that flag unusual patterns in a portfolio. None of this replaces the fundamentals in this module — risk, return, and diversification still decide the outcome. What changes is the speed and scale at which decisions get made. Workshops is where you'll actually use these tools on a mock portfolio, so consider this module the vocabulary you'll need to make sense of what you're seeing.</p>
+
+    </article>
+  </div>
+</section>
+
+<section class="section-tight quiz-section">
+  <div class="container">
+    <div class="quiz-card" data-quiz data-module="5">
+      <h2>Knowledge Check</h2>
+      <p>No wrong answers — this just helps you see what's landing.</p>
+
+      <div class="quiz-question" data-question data-correct="0">
+        <p class="quiz-question-text">1. Buying a share of stock makes you:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">A part-owner of the company</button>
+          <button class="quiz-option" data-index="1">A lender to the company</button>
+          <button class="quiz-option" data-index="2">An employee of the company</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="1">
+        <p class="quiz-question-text">2. A bond represents:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">Ownership in a company</button>
+          <button class="quiz-option" data-index="1">A loan that's paid back with interest</button>
+          <button class="quiz-option" data-index="2">A type of savings account</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="2">
+        <p class="quiz-question-text">3. Diversification mainly helps by:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">Guaranteeing a profit</button>
+          <button class="quiz-option" data-index="1">Eliminating all risk</button>
+          <button class="quiz-option" data-index="2">Reducing the impact of any single investment doing poorly</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="1">
+        <p class="quiz-question-text">4. A "bear market" describes:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">A sustained period of rising prices</button>
+          <button class="quiz-option" data-index="1">A sustained decline in prices</button>
+          <button class="quiz-option" data-index="2">A single day of trading</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="0">
+        <p class="quiz-question-text">5. Which best describes how AI is used in investing today?</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">Automating portfolio-building and scanning data faster than a person could</button>
+          <button class="quiz-option" data-index="1">Guaranteeing specific future returns</button>
+          <button class="quiz-option" data-index="2">Replacing the need to understand risk and diversification</button>
+        </div>
+      </div>
+
+      <p class="quiz-result" data-quiz-result></p>
+      <a href="course-module-6.html" class="btn btn-primary" data-mark-complete data-module="5" style="margin-top:24px;">Mark complete &amp; continue</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container module-nav">
+    <a href="course-module-4.html" class="btn btn-outline">&larr; Previous module</a>
+    <a href="course-module-6.html" class="btn btn-outline">Next: Protecting Yourself &amp; Setting Goals &rarr;</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img class="brand-mark" src="logo.png" alt="Numerifi logo">
+          Numerifi
+        </a>
+        <p>Free, AI-powered financial literacy and investing education for high school students.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Numerifi on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Program</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="workshops.html">Workshops</a></li>
+          <li><a href="careers.html">Career Paths</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Numerifi</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="forum.html">Discussion Forum</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Numerifi. A free program for high school students.</span>
+      <span>Built by students, for students.</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

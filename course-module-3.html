@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 3: Credit &amp; Debt — Numerifi</title>
+<meta name="description" content="Read a credit score and compare debt payoff strategies — Module 3 of Numerifi's free Personal Finance &amp; Markets course.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img class="brand-mark" src="logo.png" alt="Numerifi logo">
+      Numerifi
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html" aria-current="page">Courses</a></li>
+      <li><a href="workshops.html">Workshops</a></li>
+      <li class="has-dropdown">
+        <button class="nav-toggle-item" aria-expanded="false" aria-haspopup="true">
+          More
+          <svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="dropdown">
+          <li><a href="forum.html">Discussion Forum</a></li>
+          <li><a href="careers.html">Career Paths</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </li>
+      <li class="nav-cta"><a href="workshops.html" class="btn btn-primary">Book a Workshop</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="module-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+    </div>
+    <div class="course-progress">
+      <span class="course-progress-label">Module 3 of 6</span>
+      <div class="course-progress-bar"><div class="course-progress-fill" style="width:50%"></div></div>
+    </div>
+    <h1>Credit &amp; Debt</h1>
+    <p>Read a credit score and compare debt payoff strategies. <span class="eyebrow" style="margin:0;">~20 min</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="container lesson-layout">
+    <article class="lesson">
+
+      <h2>What a credit score is, and why it follows you</h2>
+      <p>A credit score is a number, roughly 300 to 850, that summarizes how reliably you've paid back money you've borrowed. Lenders use it to decide whether to approve a loan or credit card, and at what interest rate. A higher score usually means lower interest rates — on a car loan or eventually a mortgage, a 100-point difference in credit score can mean thousands of dollars in extra interest over the life of the loan. Landlords and even some employers check it too.</p>
+      <p>The score is built mostly from: payment history (do you pay on time?), amounts owed (how much of your available credit are you using?), length of credit history, and the mix and recency of new credit. None of it is permanent — a score moves as your habits do, in both directions.</p>
+
+      <div class="lesson-visual">
+        <svg viewBox="0 0 300 200" role="img" aria-labelledby="credit-gauge-title">
+          <title id="credit-gauge-title">Gauge chart showing credit score ranges from Poor to Excellent, with an example score of 710 in the Good range</title>
+          <path d="M40,160 A110,110 0 0,1 72.2,82.2" fill="none" stroke="#E2E8F0" stroke-width="26" stroke-linecap="round"/>
+          <path d="M72.2,82.2 A110,110 0 0,1 150,50" fill="none" stroke="#8694AB" stroke-width="26" stroke-linecap="round"/>
+          <path d="M150,50 A110,110 0 0,1 227.8,82.2" fill="none" stroke="#6FE0D0" stroke-width="26" stroke-linecap="round"/>
+          <path d="M227.8,82.2 A110,110 0 0,1 260,160" fill="none" stroke="#1FB8A6" stroke-width="26" stroke-linecap="round"/>
+          <line x1="150" y1="160" x2="188" y2="78" stroke="#10192B" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="150" cy="160" r="7" fill="#10192B"/>
+          <text x="40" y="185" font-family="Inter, sans-serif" font-size="11" fill="#8694AB">300</text>
+          <text x="248" y="185" font-family="Inter, sans-serif" font-size="11" fill="#8694AB">850</text>
+          <text x="150" y="200" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700" fill="#10192B">Example: 710</text>
+        </svg>
+        <p class="visual-caption">
+          <span style="color:#E2E8F0; font-weight:700;">&#9679;</span> Poor&ensp;
+          <span style="color:#8694AB; font-weight:700;">&#9679;</span> Fair&ensp;
+          <span style="color:#6FE0D0; font-weight:700;">&#9679;</span> Good&ensp;
+          <span style="color:#1FB8A6; font-weight:700;">&#9679;</span> Excellent
+        </p>
+      </div>
+
+      <h2>Credit cards: APR, statements, and minimum payments</h2>
+      <p>A credit card isn't free money — it's a short-term loan that resets every billing cycle. <b>APR</b> (annual percentage rate) is the yearly cost of borrowing if you carry a balance; many cards sit around 20&ndash;25%. If you pay your full statement balance by the due date, most cards charge no interest at all. The trouble starts with the <b>minimum payment</b>: it's designed to keep the account in good standing, not to pay off the balance. Paying only the minimum on a $1,000 balance at 22% APR can take years to clear and cost more in interest than the original purchase.</p>
+      <p>Reading a statement matters as much as having the card: check the due date, the statement balance, the minimum payment, and the APR every cycle. A card is a tool for building credit history and earning convenience or rewards — it's the balance you don't pay off that turns it into a problem.</p>
+
+      <h2>Loans, payoff strategies, and predatory lending</h2>
+      <p>When you do carry debt across more than one account, two common payoff strategies are the <b>snowball</b> method (pay minimums on everything, put extra money toward the smallest balance first, for quick psychological wins) and the <b>avalanche</b> method (put extra money toward the highest-interest balance first, which saves the most money overall). Avalanche is cheaper in total interest; snowball is easier for some people to stick with. Either beats paying minimums on everything indefinitely.</p>
+      <div class="callout">
+        <p><b>Predatory lending red flag:</b> payday loans and "no credit check" loans often carry APRs in the triple digits — not a typo. If a loan is marketed as fast, easy, and doesn't ask about your ability to repay, treat that as a warning sign, not a convenience.</p>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<section class="section-tight quiz-section">
+  <div class="container">
+    <div class="quiz-card" data-quiz data-module="3">
+      <h2>Knowledge Check</h2>
+      <p>No wrong answers — this just helps you see what's landing.</p>
+
+      <div class="quiz-question" data-question data-correct="1">
+        <p class="quiz-question-text">1. A higher credit score usually means:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">Higher interest rates on loans</button>
+          <button class="quiz-option" data-index="1">Lower interest rates on loans</button>
+          <button class="quiz-option" data-index="2">No effect on interest rates</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="0">
+        <p class="quiz-question-text">2. If you pay your full statement balance by the due date, most cards charge:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">No interest</button>
+          <button class="quiz-option" data-index="1">A small flat fee</button>
+          <button class="quiz-option" data-index="2">Half the normal APR</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="2">
+        <p class="quiz-question-text">3. The "avalanche" payoff method targets:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">The newest debt first</button>
+          <button class="quiz-option" data-index="1">The smallest balance first</button>
+          <button class="quiz-option" data-index="2">The highest-interest balance first</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="1">
+        <p class="quiz-question-text">4. Which is a red flag for predatory lending?</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">A credit union asking about your income</button>
+          <button class="quiz-option" data-index="1">A "no credit check" loan advertised as fast and easy</button>
+          <button class="quiz-option" data-index="2">A bank explaining its APR before you sign</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="0">
+        <p class="quiz-question-text">5. A credit card's minimum payment is mainly designed to:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">Keep the account in good standing, not pay it off quickly</button>
+          <button class="quiz-option" data-index="1">Pay off the full balance within a year</button>
+          <button class="quiz-option" data-index="2">Eliminate all interest charges</button>
+        </div>
+      </div>
+
+      <p class="quiz-result" data-quiz-result></p>
+      <a href="course-module-4.html" class="btn btn-primary" data-mark-complete data-module="3" style="margin-top:24px;">Mark complete &amp; continue</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container module-nav">
+    <a href="course-module-2.html" class="btn btn-outline">&larr; Previous module</a>
+    <a href="course-module-4.html" class="btn btn-outline">Next: Banking, Paychecks &amp; Taxes &rarr;</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img class="brand-mark" src="logo.png" alt="Numerifi logo">
+          Numerifi
+        </a>
+        <p>Free, AI-powered financial literacy and investing education for high school students.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Numerifi on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Program</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="workshops.html">Workshops</a></li>
+          <li><a href="careers.html">Career Paths</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Numerifi</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="forum.html">Discussion Forum</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Numerifi. A free program for high school students.</span>
+      <span>Built by students, for students.</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

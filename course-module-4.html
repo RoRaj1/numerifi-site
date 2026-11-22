@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 4: Banking, Paychecks &amp; Taxes — Numerifi</title>
+<meta name="description" content="Read a paycheck and explain how tax brackets work — Module 4 of Numerifi's free Personal Finance &amp; Markets course.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img class="brand-mark" src="logo.png" alt="Numerifi logo">
+      Numerifi
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html" aria-current="page">Courses</a></li>
+      <li><a href="workshops.html">Workshops</a></li>
+      <li class="has-dropdown">
+        <button class="nav-toggle-item" aria-expanded="false" aria-haspopup="true">
+          More
+          <svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="dropdown">
+          <li><a href="forum.html">Discussion Forum</a></li>
+          <li><a href="careers.html">Career Paths</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </li>
+      <li class="nav-cta"><a href="workshops.html" class="btn btn-primary">Book a Workshop</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="module-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M3 10h18"/><path d="M7 15h3"/></svg>
+    </div>
+    <div class="course-progress">
+      <span class="course-progress-label">Module 4 of 6</span>
+      <div class="course-progress-bar"><div class="course-progress-fill" style="width:66.6%"></div></div>
+    </div>
+    <h1>Banking, Paychecks &amp; Taxes</h1>
+    <p>Read a paycheck and explain how tax brackets work. <span class="eyebrow" style="margin:0;">~15 min</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="container lesson-layout">
+    <article class="lesson">
+
+      <h2>Bank accounts &amp; digital payments</h2>
+      <p>A <b>checking account</b> is for money you'll use soon: paying bills, debit card purchases, daily spending. A <b>savings account</b> is for money you're setting aside, usually paying more interest in exchange for fewer transactions. Most banks let you hold both, and moving money between them is often instant and free. Digital wallets (Apple Pay, Google Pay) and payment apps (Venmo, Cash App) move money between people or pay at checkout without a physical card, but they aren't bank accounts — the balance sitting in some of these apps isn't always insured the way a bank account is, so moving spare balances to an actual bank account is usually safer.</p>
+
+      <h2>Reading a paycheck</h2>
+      <p><b>Gross pay</b> is what you earned before anything is taken out. <b>Net pay</b> (what actually hits your account) is gross pay minus taxes and any other deductions. The gap between the two is usually federal income tax, Social Security and Medicare (together called <b>FICA</b>), and sometimes state income tax. A <b>W-2</b> is the form your employer sends each January summarizing a full year of wages and taxes withheld — you'll need it to file a tax return.</p>
+
+      <div class="lesson-visual">
+        <svg viewBox="0 0 460 150" role="img" aria-labelledby="paycheck-chart-title">
+          <title id="paycheck-chart-title">Stacked bar chart: a $1,000 gross paycheck split into net pay, federal tax, FICA, and state tax</title>
+          <rect x="20" y="20" width="315" height="40" fill="#1FB8A6"/>
+          <rect x="335" y="20" width="50.4" height="40" fill="#1C3A6B"/>
+          <rect x="385.4" y="20" width="33.6" height="40" fill="#8694AB"/>
+          <rect x="419" y="20" width="21" height="40" fill="#6FE0D0"/>
+          <text x="20" y="92" font-family="Inter, sans-serif" font-size="12" fill="#10192B"><tspan font-weight="700">&#9679;</tspan> Net pay: $750 (75%)</text>
+          <text x="20" y="112" font-family="Inter, sans-serif" font-size="12" fill="#10192B"><tspan fill="#1C3A6B" font-weight="700">&#9679;</tspan> Federal tax: $120</text>
+          <text x="220" y="92" font-family="Inter, sans-serif" font-size="12" fill="#10192B"><tspan fill="#8694AB" font-weight="700">&#9679;</tspan> FICA: $80</text>
+          <text x="220" y="112" font-family="Inter, sans-serif" font-size="12" fill="#10192B"><tspan fill="#6FE0D0" font-weight="700">&#9679;</tspan> State tax: $50</text>
+        </svg>
+        <p class="visual-caption">A sample $1,000 gross paycheck. Exact splits vary by state and withholding elections.</p>
+      </div>
+
+      <h2>How tax brackets actually work</h2>
+      <p>The U.S. uses a <b>progressive</b> tax system, taxed in slices, not all-or-nothing. A common misconception: "if I earn enough to enter the 22% bracket, all my income gets taxed at 22%." That's not how it works. Each bracket's rate only applies to the income <i>within</i> that slice. If the 10% bracket covers the first $11,000 and the 12% bracket covers the next chunk, someone earning $20,000 pays 10% on the first $11,000 and 12% only on the remaining $9,000 — not 12% on the whole $20,000. Moving into a higher bracket never reduces your take-home pay; it only raises the rate on the income above the threshold.</p>
+
+      <div class="lesson-visual">
+        <svg viewBox="0 0 300 160" role="img" aria-labelledby="bracket-chart-title">
+          <title id="bracket-chart-title">Step chart showing increasing tax rates of 10%, 12%, and 22% applied to successive slices of income, not the whole income</title>
+          <line x1="20" y1="130" x2="280" y2="130" stroke="#E2E8F0" stroke-width="1.5"/>
+          <rect x="30" y="100" width="70" height="30" fill="#6FE0D0"/>
+          <rect x="110" y="80" width="70" height="50" fill="#1FB8A6"/>
+          <rect x="190" y="50" width="70" height="80" fill="#1C3A6B"/>
+          <text x="65" y="95" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#10192B">10%</text>
+          <text x="145" y="75" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#10192B">12%</text>
+          <text x="225" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#10192B">22%</text>
+          <text x="150" y="148" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#8694AB">Each rate applies only to its own slice of income &rarr;</text>
+        </svg>
+        <p class="visual-caption">Illustrative brackets — real thresholds change yearly and depend on filing status.</p>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<section class="section-tight quiz-section">
+  <div class="container">
+    <div class="quiz-card" data-quiz data-module="4">
+      <h2>Knowledge Check</h2>
+      <p>No wrong answers — this just helps you see what's landing.</p>
+
+      <div class="quiz-question" data-question data-correct="0">
+        <p class="quiz-question-text">1. Net pay is:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">Gross pay minus taxes and deductions</button>
+          <button class="quiz-option" data-index="1">The same as gross pay</button>
+          <button class="quiz-option" data-index="2">Only your tips and bonuses</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="2">
+        <p class="quiz-question-text">2. FICA refers to:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">A type of savings account</button>
+          <button class="quiz-option" data-index="1">State income tax only</button>
+          <button class="quiz-option" data-index="2">Social Security and Medicare taxes</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="1">
+        <p class="quiz-question-text">3. A W-2 form is:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">A loan application</button>
+          <button class="quiz-option" data-index="1">A yearly summary of wages and withheld taxes</button>
+          <button class="quiz-option" data-index="2">A type of credit card statement</button>
+        </div>
+      </div>
+
+      <div class="quiz-question" data-question data-correct="1">
+        <p class="quiz-question-text">4. Moving into a higher tax bracket means:</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-index="0">All of your income is now taxed at the higher rate</button>
+          <button class="quiz-option" data-index="1">Only the income within that bracket is taxed at the higher rate</button>
+          <button class="quiz-option" data-index="2">Your take-home pay goes down overall</button>
+        </div>
+      </div>
+
+      <p class="quiz-result" data-quiz-result></p>
+      <a href="course-module-5.html" class="btn btn-primary" data-mark-complete data-module="4" style="margin-top:24px;">Mark complete &amp; continue</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container module-nav">
+    <a href="course-module-3.html" class="btn btn-outline">&larr; Previous module</a>
+    <a href="course-module-5.html" class="btn btn-outline">Next: Investing &amp; the Markets &rarr;</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img class="brand-mark" src="logo.png" alt="Numerifi logo">
+          Numerifi
+        </a>
+        <p>Free, AI-powered financial literacy and investing education for high school students.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Numerifi on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Program</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="workshops.html">Workshops</a></li>
+          <li><a href="careers.html">Career Paths</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Numerifi</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="forum.html">Discussion Forum</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Numerifi. A free program for high school students.</span>
+      <span>Built by students, for students.</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
