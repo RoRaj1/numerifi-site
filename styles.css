@@ -617,6 +617,12 @@ select:focus-visible {
   .about-grid { grid-template-columns: 1fr; }
 }
 
+.team-photo {
+  width: 100%;
+  border-radius: var(--radius-md);
+  margin-top: 20px;
+}
+
 /* ---- Donate ---- */
 .donate-card {
   background: var(--white);
